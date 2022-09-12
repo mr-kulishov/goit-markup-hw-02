@@ -1,0 +1,96 @@
+/* колір основного тексту  #757575;*/
+/* вторичний колір #212121;*/
+/* колір фону #F5F5F5;*/
+/* білий колір #FFFFFF;*/ 
+/* акцент #2196F3;*/
+/* колір контактів rgba(255, 255, 255, 0.6);*/
+
+:root {
+    --primary-color: #757575;
+    --link-color: #212121;
+    --secondary-text-color: #212121;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: var(--primary-color)
+    var(--secondary-text-color)
+}
+
+a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.link:hover {
+    color: #008000;
+}
+
+.link:focus {
+    color: tomato;
+}   
+
+.nav-link:hover {
+    color: #008000;
+}
+
+.nav-link:focus {
+    color:tomato;
+}
+
+.footer-link:hover {
+    color: #008000;
+}
+
+.footer-link:focus {
+    color: tomato;
+}
+
+.logo-link {
+color: #2196F3;
+
+
+}
+
+.logo-header {
+    color: black;
+    background-color: #FFFFFF;
+}
+
+.logo-header-white {
+    color: #FFFFFF;
+}
+
+.link {
+    color: #212121;
+}
+
+.nav-link {
+    color: #2196F3;
+}
+
+.section-hero {
+    background: #2F303A;
+}
+
+.title-hero {
+    color: #FFFFFF;
+}
+
+.button {
+
+}
+
+/*footer*/
+.footer-color {
+background-color:#2F303A;;
+
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link {
+    color: #FFFFFF;
+}
