@@ -29,22 +29,23 @@ a {
 
 ul {
     list-style: none;
+    
 }
 
 .link:hover {
-    color: #008000;
+    color: #2196F3;
 }
 
 .link:focus {
-    color: rgb(223, 154, 26);
+    color: #2196F3;
 }   
 
 .nav-link:hover {
-    color: #008000;
+    color: #2196F3;
 }
 
 .nav-link:focus {
-    color: rgb(223, 154, 26);
+    color: #2196F3;
 }
 
 .nav-link-portfolio  {
@@ -57,23 +58,27 @@ ul {
 }
 
 .nav-link-portfolio:hover {
-    color: #008000;
+    color: #2196F3;
 }
 
 .nav-link-portfolio:focus {
-    color: rgb(223, 154, 26);
+    color: #2196F3;
 }
 
 .link-tel {
     color: #757575;
 }
 
+.link-tel:hover {
+    color: #2196F3;
+}
+
 .footer-link:hover {
-    color: #008000;
+    color: #2196F3;
 }
 
 .footer-link:focus {
-    color: rgb(223, 154, 26);
+    color: #2196F3;
 }
 
 .logo-link {
@@ -87,13 +92,12 @@ font-weight: 700;
 
 .logo-header {
     color: black;
-    background-color: #FFFFFF;
     font-size: 26px;
     line-height: 1.2;
     font-weight: 700;
 }
 
-.logo-header-white {
+.logo-header-footer {
     color: #FFFFFF;
     line-height: 1.1;
 }
@@ -109,7 +113,7 @@ font-weight: 700;
     }
     
 .nav-link {
-    color: #2196F3;
+    color: #212121;
     text-decoration: none;
     font-size: 14px;
     line-height: 1.1;
@@ -162,6 +166,15 @@ font-weight: 700;
 
 }
 
+.ul-persons {
+    background: #F5F4FA;
+}
+
+.persons {
+background: #FFFFFF;
+
+}
+
 .title-person {
     font-style: normal;
     font-weight: 500;
@@ -191,6 +204,12 @@ font-weight: 700;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .section-btn-all {
@@ -261,5 +280,6 @@ background-color:#2F303A;;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+    border-radius: 4px;
 }
 
