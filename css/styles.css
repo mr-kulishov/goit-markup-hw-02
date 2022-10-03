@@ -121,6 +121,15 @@ font-weight: 700;
     letter-spacing: 0.02em;
 }
 
+.nav .nav-link.current {
+    color: #2196F3;
+}
+
+.nav .nav-link-portfolio.current {
+    color: #2196F3;
+}
+
+
 .section-hero {
     background: #2F303A;
 }
@@ -210,7 +219,7 @@ background: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 500;
-    font-style: normal;
+    
 }
 
 .section-btn-all {
@@ -244,6 +253,10 @@ background: #FFFFFF;
     font-size: 16px;
     line-height: 2.0;
     color: #757575;
+}
+
+.section-background {
+background-color: #F5F5F5;
 }
 
 /*footer*/
