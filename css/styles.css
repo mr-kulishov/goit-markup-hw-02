@@ -218,9 +218,19 @@ background: #FFFFFF;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-weight: 500;
-    
+        
 }
+
+.section-btn:hover {
+background: #2196F3;
+
+}
+
+.section-btn:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
 
 .section-btn-all {
     color: #FFFFFF;
@@ -234,6 +244,7 @@ background: #FFFFFF;
 
 .section-btn-all:hover {
     color: #008000;
+   
 }
 
 .section-btn-all:focus {
@@ -256,7 +267,7 @@ background: #FFFFFF;
 }
 
 .section-background {
-background-color: #F5F5F5;
+background-color: #FFFFFF;
 }
 
 /*footer*/
